@@ -1,6 +1,6 @@
 # Image Classification Project
 
-This project implements a basic image classification system utilizing a pre-trained TensorFlow model to predict the content of input images. The model is capable of classifying images into categories defined by a `labels.txt` file, such as "mars" or "saturn."
+This project implements a basic image classification system utilizing a pre-trained TensorFlow model to predict the content of input images. The model is capable of classifying images into categories defined by a `labels.txt` file.
 
 ## Project Structure
 
@@ -25,11 +25,9 @@ The `predict.py` script executes the following steps:
 
 To run this project, follow these instructions:
 
-
   **Install Dependencies:** Install the required Python libraries using pip:
     ```bash
     pip install tensorflow Pillow numpy
     ```
-
 
 The script will process `test.jpg` and display the classification result in the console. Users may replace `test.jpg` with their own images, ensuring the filename in `predict.py` is updated accordingly.
