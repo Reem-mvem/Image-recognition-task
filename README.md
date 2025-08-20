@@ -30,4 +30,4 @@ To run this project, follow these instructions:
     pip install tensorflow Pillow numpy
     ```
 
-The script will process `test.jpg` and display the classification result in the console. Users may replace `test.jpg` with their own images, ensuring the filename in `predict.py` is updated accordingly.
+The script will process `test.jpg` and display the classification result in the console. you may replace `test.jpg` with your own images make sure the filename in `predict.py` is updated accordingly.
